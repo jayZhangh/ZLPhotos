@@ -128,7 +128,7 @@
         for (ZLAssetModel *assetModel in self.assetModelArr) {
             if (assetModel.isSelected) {
                 // 获取照片
-                [[PHCachingImageManager defaultManager] requestImageForAsset:assetModel.asset targetSize:CGSizeMake(self.view.bounds.size.width * kPhotoCellScale, self.view.bounds.size.height * kPhotoCellScale) contentMode:PHImageContentModeAspectFit options:nil resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+                [[PHCachingImageManager defaultManager] requestImageForAsset:assetModel.asset targetSize:CGSizeMake([UIScreen mainScreen].bounds.size.width * kPhotoCellScale, [UIScreen mainScreen].bounds.size.height * kPhotoCellScale) contentMode:PHImageContentModeAspectFit options:nil resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
                     [imagesData addObject:UIImageJPEGRepresentation(result, 0.6)];
                 }];
             }

@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface ZLPhotos : UIViewController
 
+@property (nonatomic, assign) int selectedMaxCount;
 @property (nonatomic, copy) void (^selectedPhotosBlock)(NSArray<NSData *> *imagesData);
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E613EAEF2898C035002BFF08 /* unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E613EAED2898C035002BFF08 /* unselected@2x.png */; };
+		E613EAF02898C035002BFF08 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E613EAEE2898C035002BFF08 /* selected@2x.png */; };
 		E6E5A9AF289775BB008ADD93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9AE289775BB008ADD93 /* AppDelegate.m */; };
 		E6E5A9B2289775BB008ADD93 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9B1289775BB008ADD93 /* SceneDelegate.m */; };
 		E6E5A9B5289775BB008ADD93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9B4289775BB008ADD93 /* ViewController.m */; };
@@ -15,14 +17,16 @@
 		E6E5A9BD289775BD008ADD93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E5A9BB289775BD008ADD93 /* LaunchScreen.storyboard */; };
 		E6E5A9C0289775BD008ADD93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9BF289775BD008ADD93 /* main.m */; };
 		E6E5A9C8289775CD008ADD93 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5A9C7289775CD008ADD93 /* Photos.framework */; };
-		E6E5A9CB28977B22008ADD93 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9CA28977B22008ADD93 /* PhotoCollectionViewCell.m */; };
+		E6E5A9CB28977B22008ADD93 /* ZLPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9CA28977B22008ADD93 /* ZLPhotoCollectionViewCell.m */; };
 		E6E5A9CF28978243008ADD93 /* ZLPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9CE28978243008ADD93 /* ZLPhotos.m */; };
 		E6E5A9D228978319008ADD93 /* ZLAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5A9D128978319008ADD93 /* ZLAssetModel.m */; };
-		E6E5A9DD28978FB6008ADD93 /* selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E5A9DB28978FB6008ADD93 /* selected@2x.png */; };
-		E6E5A9DE28978FB6008ADD93 /* unselected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6E5A9DC28978FB6008ADD93 /* unselected@2x.png */; };
+		E6F34B7F2897C5DB0045B983 /* ZLPhotosBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F34B7E2897C5DB0045B983 /* ZLPhotosBrowser.m */; };
+		E6F34B822897C74B0045B983 /* ZLPhotosBrowserCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F34B812897C74B0045B983 /* ZLPhotosBrowserCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E613EAED2898C035002BFF08 /* unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected@2x.png"; sourceTree = "<group>"; };
+		E613EAEE2898C035002BFF08 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
 		E6E5A9AA289775BB008ADD93 /* ZLPhotos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZLPhotos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E5A9AD289775BB008ADD93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6E5A9AE289775BB008ADD93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,14 +40,16 @@
 		E6E5A9BE289775BD008ADD93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E5A9BF289775BD008ADD93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E6E5A9C7289775CD008ADD93 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
-		E6E5A9C928977B22008ADD93 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
-		E6E5A9CA28977B22008ADD93 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		E6E5A9C928977B22008ADD93 /* ZLPhotoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		E6E5A9CA28977B22008ADD93 /* ZLPhotoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPhotoCollectionViewCell.m; sourceTree = "<group>"; };
 		E6E5A9CD28978243008ADD93 /* ZLPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPhotos.h; sourceTree = "<group>"; };
 		E6E5A9CE28978243008ADD93 /* ZLPhotos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPhotos.m; sourceTree = "<group>"; };
 		E6E5A9D028978319008ADD93 /* ZLAssetModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLAssetModel.h; sourceTree = "<group>"; };
 		E6E5A9D128978319008ADD93 /* ZLAssetModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLAssetModel.m; sourceTree = "<group>"; };
-		E6E5A9DB28978FB6008ADD93 /* selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected@2x.png"; sourceTree = "<group>"; };
-		E6E5A9DC28978FB6008ADD93 /* unselected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected@2x.png"; sourceTree = "<group>"; };
+		E6F34B7D2897C5DB0045B983 /* ZLPhotosBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPhotosBrowser.h; sourceTree = "<group>"; };
+		E6F34B7E2897C5DB0045B983 /* ZLPhotosBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPhotosBrowser.m; sourceTree = "<group>"; };
+		E6F34B802897C74B0045B983 /* ZLPhotosBrowserCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPhotosBrowserCollectionViewCell.h; sourceTree = "<group>"; };
+		E6F34B812897C74B0045B983 /* ZLPhotosBrowserCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPhotosBrowserCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +111,18 @@
 		E6E5A9CC28978226008ADD93 /* ZLPhotos */ = {
 			isa = PBXGroup;
 			children = (
-				E6E5A9DB28978FB6008ADD93 /* selected@2x.png */,
-				E6E5A9DC28978FB6008ADD93 /* unselected@2x.png */,
+				E613EAEE2898C035002BFF08 /* selected@2x.png */,
+				E613EAED2898C035002BFF08 /* unselected@2x.png */,
 				E6E5A9CD28978243008ADD93 /* ZLPhotos.h */,
 				E6E5A9CE28978243008ADD93 /* ZLPhotos.m */,
 				E6E5A9D028978319008ADD93 /* ZLAssetModel.h */,
 				E6E5A9D128978319008ADD93 /* ZLAssetModel.m */,
-				E6E5A9C928977B22008ADD93 /* PhotoCollectionViewCell.h */,
-				E6E5A9CA28977B22008ADD93 /* PhotoCollectionViewCell.m */,
+				E6E5A9C928977B22008ADD93 /* ZLPhotoCollectionViewCell.h */,
+				E6E5A9CA28977B22008ADD93 /* ZLPhotoCollectionViewCell.m */,
+				E6F34B7D2897C5DB0045B983 /* ZLPhotosBrowser.h */,
+				E6F34B7E2897C5DB0045B983 /* ZLPhotosBrowser.m */,
+				E6F34B802897C74B0045B983 /* ZLPhotosBrowserCollectionViewCell.h */,
+				E6F34B812897C74B0045B983 /* ZLPhotosBrowserCollectionViewCell.m */,
 			);
 			path = ZLPhotos;
 			sourceTree = "<group>";
@@ -175,9 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E5A9BD289775BD008ADD93 /* LaunchScreen.storyboard in Resources */,
-				E6E5A9DE28978FB6008ADD93 /* unselected@2x.png in Resources */,
-				E6E5A9DD28978FB6008ADD93 /* selected@2x.png in Resources */,
 				E6E5A9BA289775BD008ADD93 /* Assets.xcassets in Resources */,
+				E613EAF02898C035002BFF08 /* selected@2x.png in Resources */,
+				E613EAEF2898C035002BFF08 /* unselected@2x.png in Resources */,
 				E6E5A9B8289775BB008ADD93 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,9 +202,11 @@
 				E6E5A9CF28978243008ADD93 /* ZLPhotos.m in Sources */,
 				E6E5A9B5289775BB008ADD93 /* ViewController.m in Sources */,
 				E6E5A9AF289775BB008ADD93 /* AppDelegate.m in Sources */,
+				E6F34B7F2897C5DB0045B983 /* ZLPhotosBrowser.m in Sources */,
 				E6E5A9C0289775BD008ADD93 /* main.m in Sources */,
+				E6F34B822897C74B0045B983 /* ZLPhotosBrowserCollectionViewCell.m in Sources */,
 				E6E5A9D228978319008ADD93 /* ZLAssetModel.m in Sources */,
-				E6E5A9CB28977B22008ADD93 /* PhotoCollectionViewCell.m in Sources */,
+				E6E5A9CB28977B22008ADD93 /* ZLPhotoCollectionViewCell.m in Sources */,
 				E6E5A9B2289775BB008ADD93 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
